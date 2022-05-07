@@ -1,0 +1,664 @@
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.look{
+    width: 100%;
+    height: 100%;
+    background: url('./img/back.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+h1{
+    color: rgb(65, 18, 173);
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 700ms;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+h1:hover{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 3px double red;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+header{
+    width: 60%;
+    height: auto;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 50px;
+    box-shadow: 20px 20px 40px red;
+    padding: 50px 10px;
+
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menu .box{
+    width: 50%;
+} 
+
+
+
+.menu img{
+    width: 80%;
+    height: 95%;
+    border: 2px solid red;
+    border-radius: 40px;
+    transition: 600ms;
+
+}
+.menu img:hover{
+    box-shadow: 20px 30px 60px rgb(255, 255, 255);
+}
+
+.menu .box a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+*{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(65, 201, 183);
+    border: 3px solid rgb(224, 96, 22);
+    box-shadow: rgb(0, 0, 0.5);
+}
+.carousel-inner{
+    padding: 20px 100px ;
+}
+.carousel-inner .som{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.carousel-inner .som .lig{
+    width: 45%;
+    height: 100%;
+}
+.carousel-inner .som .rig{
+    width: 45%;
+    height: 100%;
+}
+
+.carousel-inner .nom{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.carousel-inner .nom .kom{
+    display: flex;
+    justify-content: space-between;
+}
+.carousel-inner .nom .ong{
+    width: 45%;
+    height: 100%;
+}
+.carousel-inner .nom .chap{
+    width: 45%;
+    height: 100%;
+}
+.carousel-inner .nom .pas{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+.carousel-inner .nom .pas .uzb p{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    color: black;
+    text-align: center;
+}
+
+.carousel-inner .nom .pas .frs p{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    color: black;
+    text-align: center;
+}
+.carousel-inner .bosh{
+    display: flex;
+    justify-content: space-between;
+}
+.carousel-inner .bosh .lef{
+    width: 55%;
+    height: 100%;
+}
+.carousel-inner .bosh .yon{
+    width: 35%;
+    height: 100%;
+    text-align: center;
+}
+.carousel-inner .bosh .yon .uzb{
+    padding-top: 60px;
+}
+.carousel-inner .bosh .yon .frs{
+    padding-top: 230px;
+}
+.carousel-inner .bosh .yon p{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    color: black;
+    text-align: center;
+}
+
+@media(max-width:922px){
+    .carousel-inner{
+        padding: 10px 50px ;
+    }
+    .carousel-inner .som .lig{
+        width: 40%;
+        height: 80%;
+    }
+    .carousel-inner .som .rig{
+        width: 40%;
+        height: 80%;
+    }
+    .carousel-inner .nom .pas .uzb audio{
+        width: 65%;
+     }
+     .carousel-inner .nom .pas .frs audio{
+         width: 65%;
+    }
+    .carousel-inner .nom .pas{
+        display: flex;
+        justify-content: space-around;
+    }
+    .carousel-inner .bosh .lef{
+        width: 60%;
+        height: 100%;
+    }
+    .carousel-inner .bosh .yon{
+        width: 40%;
+    }
+    
+
+}
+
+
+@media(max-width:873px){
+   
+    .carousel-inner{
+        padding: 10px 0px ;
+    }
+    .carousel-inner .som{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .carousel-inner .som .lig{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 20px;
+    }
+    .carousel-inner .som .lig img{
+        width: 80%;
+        padding: 13px 13px;
+    }
+    .carousel-inner .som .rig img{
+        width: 80%;
+        padding: 13px 13px;
+    }
+    .carousel-inner .som .rig{
+        width: 100%;
+        height: 100%;
+    }
+    .carousel-inner .nom{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .carousel-inner .nom .ong{
+        width: 100%;
+        height: 100%;
+    }
+    .carousel-inner .nom .kom{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .carousel-inner .nom .ong img{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .carousel-inner .nom .chap{
+        width: 100%;
+        height: 100%;
+    }
+    .carousel-inner .nom .chap img{
+        width: 100%;
+        padding-bottom: 12px;
+    }
+    .carousel-inner .nom .pas{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .carousel-inner .nom .pas .uzb{
+        padding-bottom: 10px;
+        padding-top: 15px;
+    }
+    .carousel-inner .nom .pas .uzb audio{
+       width: 65%;
+    }
+    .carousel-inner .nom .pas .frs audio{
+        width: 65%;
+     }
+    .carousel-inner .bosh{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .carousel-inner .bosh .lef{
+        width: 100%;
+        height: 100%;
+    }
+    .carousel-inner .bosh .lef img{
+        width: 80%;
+    }
+    .carousel-inner .bosh .yon{
+        width: 100%;
+    }
+    .carousel-inner .bosh .yon .uzb audio{
+        width: 65%;
+    }
+    .carousel-inner .bosh .yon .frs audio{
+        width: 65%;
+    }
+    .carousel-inner .bosh .yon .frs{
+        padding-top: 15px;
+    }
+    .carousel-inner .bosh .lef img{
+        padding-bottom: 0px;
+    }
+    
+    .look{
+        padding: 20px 40px;
+    }
+    .look h1{
+        font-size: 35px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    header{
+        width: auto;
+        height: auto;
+    }
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+}
+
+
+
+@media(max-width:776px){
+    body{
+        padding: 0px;
+    }
+    .carousel-inner{
+        padding: 10px 0px ;
+    }
+    .carousel-inner .som{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .carousel-inner .som .lig{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 20px;
+    }
+    .carousel-inner .som .lig img{
+        width: 80%;
+    }
+    .carousel-inner .som .rig img{
+        width: 80%;
+    }
+    .carousel-inner .som .rig{
+        width: 100%;
+        height: 100%;
+    }
+    .carousel-inner .nom{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .carousel-inner .nom .ong{
+        width: 100%;
+        height: 100%;
+    }
+    .carousel-inner .nom .kom{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .carousel-inner .nom .ong img{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .carousel-inner .nom .chap{
+        width: 100%;
+        height: 100%;
+    }
+    .carousel-inner .nom .chap img{
+        width: 100%;
+        padding-bottom: 12px;
+    }
+    .carousel-inner .nom .pas{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .carousel-inner .nom .pas .uzb{
+        padding-bottom: 10px;
+        padding-top: 15px;
+    }
+    .carousel-inner .nom .pas .uzb audio{
+       width: 65%;
+    }
+    .carousel-inner .nom .pas .frs audio{
+        width: 65%;
+     }
+    .carousel-inner .bosh{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .carousel-inner .bosh .lef{
+        width: 100%;
+        height: 100%;
+    }
+    .carousel-inner .bosh .lef img{
+        width: 70%;
+    }
+    .carousel-inner .bosh .yon{
+        width: 100%;
+    }
+    .carousel-inner .bosh .yon .uzb audio{
+        width: 65%;
+    }
+    .carousel-inner .bosh .yon .frs audio{
+        width: 65%;
+    }
+    .carousel-inner .bosh .yon .frs{
+        padding-top: 15px;
+    }
+    .carousel-inner .bosh .lef img{
+        padding-bottom: 0px;
+    }
+    .look{
+        padding: 20px 40px;
+    }
+    .look h1{
+        font-size: 35px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    header{
+        width: auto;
+        height: auto;
+    }
+    
+    .menu .box{
+        width: 80%;
+    } 
+
+}
+
+
+@media(max-width:576px){
+    body{
+        padding: 0;
+    }
+    .carousel-inner{
+        padding: 10px 0px ;
+    }
+    .carousel-inner .som{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .carousel-inner .som .lig{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 20px;
+    }
+    .carousel-inner .som .lig img{
+        width: 80%;
+    }
+    .carousel-inner .som .rig img{
+        width: 80%;
+    }
+    .carousel-inner .som .rig{
+        width: 100%;
+        height: 100%;
+    }
+    .carousel-inner .nom{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .carousel-inner .nom .ong{
+        width: 100%;
+        height: 100%;
+    }
+    .carousel-inner .nom .kom{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .carousel-inner .nom .ong img{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .carousel-inner .nom .chap{
+        width: 100%;
+        height: 100%;
+    }
+    .carousel-inner .nom .chap img{
+        width: 100%;
+        padding-bottom: 12px;
+    }
+    .carousel-inner .nom .pas{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .carousel-inner .nom .pas .uzb{
+        padding-bottom: 10px;
+        padding-top: 15px;
+    }
+    .carousel-inner .nom .pas .uzb audio{
+       width: 65%;
+    }
+    .carousel-inner .nom .pas .frs audio{
+        width: 65%;
+     }
+    .carousel-inner .bosh{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .carousel-inner .bosh .lef{
+        width: 100%;
+        height: 100%;
+    }
+    .carousel-inner .bosh .lef img{
+        width: 70%;
+    }
+    .carousel-inner .bosh .yon{
+        width: 100%;
+    }
+    .carousel-inner .bosh .yon .uzb audio{
+        width: 65%;
+    }
+    .carousel-inner .bosh .yon .frs audio{
+        width: 65%;
+    }
+    .carousel-inner .bosh .yon .frs{
+        padding-top: 15px;
+    }
+    .carousel-inner .bosh .lef img{
+        padding-bottom: 0px;
+    }
+    .look{
+        padding: 10px 20px;
+    }
+    .look h1{
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    header{
+        width: auto;
+        height: auto;
+    }
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .menu .box{
+        width: 80%;
+    } 
+
+}
+
+
+
+@media(max-width:360px){
+    body{
+        padding: 0;
+    }
+    .carousel-inner{
+        padding: 10px 0px ;
+    }
+    .carousel-inner .som{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .carousel-inner .som .lig{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 20px;
+    }
+    .carousel-inner .som .lig img{
+        width: 80%;
+    }
+    .carousel-inner .som .rig img{
+        width: 80%;
+    }
+    .carousel-inner .som .rig{
+        width: 100%;
+        height: 100%;
+    }
+    .carousel-inner .nom{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .carousel-inner .nom .ong{
+        width: 100%;
+        height: 100%;
+    }
+    .carousel-inner .nom .kom{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .carousel-inner .nom .ong img{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .carousel-inner .nom .chap{
+        width: 100%;
+        height: 100%;
+    }
+    .carousel-inner .nom .chap img{
+        width: 100%;
+        padding-bottom: 12px;
+    }
+    .carousel-inner .nom .pas{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .carousel-inner .nom .pas .uzb{
+        padding-bottom: 10px;
+        padding-top: 15px;
+    }
+    .carousel-inner .nom .pas .uzb audio{
+       width: 75%;
+    }
+    .carousel-inner .nom .pas .frs audio{
+        width: 75%;
+     }
+    .carousel-inner .bosh{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .carousel-inner .bosh .lef{
+        width: 100%;
+        height: 100%;
+    }
+    .carousel-inner .bosh .lef img{
+        width: 70%;
+    }
+    .carousel-inner .bosh .yon{
+        width: 100%;
+    }
+    .carousel-inner .bosh .yon .uzb audio{
+        width: 75%;
+    }
+    .carousel-inner .bosh .yon .frs audio{
+        width: 75%;
+    }
+    .carousel-inner .bosh .yon .frs{
+        padding-top: 15px;
+    }
+    .carousel-inner .bosh .lef img{
+        padding-bottom: 0px;
+    }
+    .look{
+        padding: 5px 10px;
+    }
+    .look h1{
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    header{
+        width: auto;
+        height: auto;
+    }
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .menu .box{
+        width: 80%;
+    } 
+    
+
+}
